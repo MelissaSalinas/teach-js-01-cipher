@@ -33,14 +33,11 @@ Algunas ideas de ejemplo:
 
 - Este proyecto se debe resolver de manera individual.
 - El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no te preocupes, lo aprenderás durante este proyecto.
-- Tiempo para completarlo: El proyecto dura 2 semanas, trabaja con sprints y planificando tus tareas.
+- Tiempo para completarlo: El proyecto dura 1 semana, trabaja con sprints y planificando tus tareas.
 
 ## Objetivos de aprendizaje
 
 En este proyecto aprenderás a construir una aplicación web que interactúe con el usuario a través del navegador y la lógica basada en esa interacción. Dicho en palabras sencillas, aprenderás a:
-
-#### UX
-- Entender las **necesidades del usuario** y realizar propuestas para esas necesidades. 
 
 #### HTML y CSS
 - Mostrar elementos de formulario en la pantalla.
@@ -54,8 +51,6 @@ En este proyecto aprenderás a construir una aplicación web que interactúe con
 - Usar **control de flujo** (bucles, condicionales, ...).
 - **Implementar funciones** dada una descripción de su comportamiento.
 
-### Testing
-- Verificar tu implementación con **pruebas unitarias**.
 
 ### Git y Github
 - Comandos de git (add | commit | pull | status | push).
@@ -82,12 +77,6 @@ Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
 #### Definición del producto
 
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
-
-- Quiénes son los principales usuarios de producto.
-- Cuáles son los objetivos de estos usuarios en relación con tu producto.
-- Cómo crees que el producto que estás creando está resolviendo sus problemas.
-
 #### Interfaz de usuario (UI)
 
 La interfaz debe permitir al usuario:
@@ -100,8 +89,8 @@ La interfaz debe permitir al usuario:
 #### Scripts / Archivos
 
 * `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
+  así como una introducción a la aplicación y su funcionalidad.
+
 * `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
   debe contener tu _markup_ (HTML) e incluir el CSS y JavaScript necesario.
 * `src/cipher.js`: acá debes implementar el objeto cipher, el cual debe estar
@@ -118,9 +107,8 @@ La interfaz debe permitir al usuario:
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
   tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
 
-## Funcionalidad extra o “Hacker edition”
-
-Las secciones llamadas “Hacker Edition” son opcionales. Si **alcanzaste los objetivos de aprendizaje** y te queda tiempo, intenta realizar el hacker edition. Así podrás profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+## Funcionalidad extra 
+ Si **alcanzaste los objetivos de aprendizaje** y te queda tiempo, intenta realizar el hacker edition. Así podrás profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
 La descripción general de este proyecto no menciona qué pasaría con las letras minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El boilerplate incluye algunos tests (comentados en principio) que puedes usar como punto de partida para implementar el soporte para estos casos.
 
@@ -160,10 +148,6 @@ como toda la configuración de dependencias y tests de ejemplo:
 │   ├── index.html
 │   ├── index.js
 │   └── style.css
-└── test
-    ├── cipher.spec.js
-    ├── headless.js
-    └── index.html
 ```
 
 El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
@@ -192,8 +176,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
    aunque recomendaría que consideres probar :penguin: GNU/Linux.
 3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te 
-   darán acceso de lectura en ese repo.
+   de este repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
 5. 📦 Instala las dependencias del proyecto con el comando `npm
@@ -211,11 +194,6 @@ resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
 
 [![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
 
-Diseño de experiencia de usuario (User Experience Design):
-
-- Ideación
-- Prototipado (sketching)
-- Testeo e Iteración
 
 Desarrollo Front-end:
 
